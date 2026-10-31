@@ -30,7 +30,7 @@ Aplikasi Todo list modern yang dibangun dengan **React 19**, **TypeScript**, **T
 ### 1. Clone & install dependensi
 
 ```bash
-git clone <url-repo>
+git clone https://github.com/anugerah170405/todo-firebase.git
 cd todo-firebase
 npm install
 ```
@@ -95,17 +95,6 @@ Lakukan langkah ini jika belum punya project Firebase:
 5. Gulir ke bagian **Your apps** → klik ikon **Web** (`</>`) → daftarkan app.
 
 6. Salin nilai dari blok `firebaseConfig` yang muncul ke file `.env` kamu (sesuai format di atas).
-
----
-
-## 🛠️ Scripts
-
-```bash
-npm run dev      # Jalankan development server
-npm run build    # Build untuk production
-npm run preview  # Preview hasil build
-npm run lint     # Jalankan ESLint
-```
 
 ---
 
